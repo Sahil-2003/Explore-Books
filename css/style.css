@@ -17,8 +17,7 @@ section{
 }
 
 header{
-    position: relative;
-    top: 0;
+    position: fixed;
     width: 100%;
     padding: 30px 100px;
     display: flex;
@@ -55,6 +54,7 @@ header .navigation a:hover{
     letter-spacing: 2px;
     line-height: 60px;
     margin-bottom: 30px;
+    margin-top: 140px;
 }
 
 .content .info h2{
